@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: black;
+
+}
+h1{
+  text-align: center;
+  color: white;
+}
+h2{
+  text-align: center;
+  color: white;
+}
+.card{
+  margin: 0 auto;
+  max-width: 450px;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0px black;
+  transition: 4s;
+  font-size: 0;
+}
+.card:hover{
+  box-shadow: 4px 6px 8px 6px red;
+}
+#result{
+  height: 100px;
+  width: 420px;
+  font-size: 50px;
+  font-weight: bold;
+  color: blue;
+  text-align: right;
+  padding: 5px;
+  letter-spacing: 3px;
+}
+.btn{
+  width: 87px;
+  height: 70px;
+  font-weight: 600;
+  font-size: 40px;
+  background-color: green;
+  color: white;
+}
+.btn1{
+  width: 87px;
+  height: 70px;
+  font-weight: 600;
+  font-size: 40px;
+  background-color: tomato;
+  color: white;
+}
+.btn2{
+  width: 175px;
+  height: 70px;
+  font-weight: 600;
+  font-size: 40px;
+  background-color: blue;
+  color: white;
+}
+.btn:hover{
+  background: pink;
+  color: green;
+}
+.btn:active{
+  background: red;
+  color: blue;
+}
+.btn2:hover{
+  background: yellow;
+  color: blue;
+}
+.btn2:active{
+  background: black;
+  color: white;
+}
+.btn1:hover{
+  background: gray;
+  color: yellow;
+}
+.btn1:active{
+  background: red;
+  color: blue;
+}
